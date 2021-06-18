@@ -40,6 +40,5 @@ public class TriangleLogicTest {
         Triangle triangle = new Triangle(new Point(0.0, 0.0), new Point(1.0, 1.0), new Point(0.0, 1.0));
         double actual = TriangleLogic.calculateTriangPerimeter(triangle);
         Assert.assertEquals(3.414, actual, 0.001);
-        //0.0 0.0 1.0 1.0 0.0 1.0
     }
 }
